@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Qata Alpaca Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-22 01:10+0000\n"
+"PO-Revision-Date: 2021-10-22 22:21+0000\n"
+"Last-Translator: Qata Alpaca\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.1\n"
+"X-Domain: qatatheme"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: template-parts/content-item.php:192
+msgid "ACCESSORIES"
+msgstr "配饰"
+
+#: functions.php:115
+msgid "Add widgets here."
+msgstr ""
+
+#: template-parts/content-item.php:211
+msgid "Care Instructions"
+msgstr "保养说明"
+
+#: template-parts/content-item.php:116
+msgid "COLORS"
+msgstr "可选颜色"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: archive.php:71
+msgid "Contact Us"
+msgstr "联系我们"
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:26
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Description of the theme
+msgid "Custom theme: Qata Alpaca Theme, developed by Javier Benavides"
+msgstr ""
+
+#: template-parts/content-item.php:202
+msgid "Description"
+msgstr "描述"
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/header-hero.php:18
+msgid "F jS, Y"
+msgstr "Y\\年 n\\月 j\\日"
+
+#: template-parts/content-block-product.php:27
+msgid "FEATURED PRODUCTS"
+msgstr "特色产品"
+
+#: templates/template-home.php:59
+msgid "Featured Products"
+msgstr "特色产品"
+
+#. Author URI of the theme
+msgid "https://javierbenavides.com"
+msgstr ""
+
+#: 404.php:102
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Author of the theme
+msgid "Javier Benavides"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: 404.php:111
+msgid "Most Used Categories"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:98
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content-block-product.php:24
+msgid "Other"
+msgstr "其他"
+
+#: template-parts/content-page.php:25 template-parts/content.php:39
+msgid "Pages:"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: functions.php:36
+msgid "Primary"
+msgstr ""
+
+#: template-parts/header-hero-product.php:61
+#: template-parts/content-block-category.php:28
+msgid "Products"
+msgstr "产品"
+
+#. Name of the theme
+msgid "Qata Alpaca Theme"
+msgstr ""
+
+#: template-parts/content-block-artisans.php:16
+msgid "QUALITY & STANDARDS"
+msgstr "质量标准"
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: single.php:28 templates/template-responsibility.php:47
+msgid "Recent Articles"
+msgstr "近期文章"
+
+#: functions.php:113
+msgid "Sidebar"
+msgstr ""
+
+#: template-parts/content-item.php:141
+msgid "SIZE"
+msgstr "可选尺寸"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. Name of the template
+msgid "Template - About Us"
+msgstr ""
+
+#. Name of the template
+msgid "Template - Blog"
+msgstr ""
+
+#. Name of the template
+msgid "Template - Home"
+msgstr ""
+
+#. Name of the template
+msgid "Template - Products"
+msgstr ""
+
+#. Name of the template
+msgid "Template - Responsibility"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:129
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: single.php:29 template-parts/content-block-product.php:25
+#: template-parts/content-block-product.php:28 templates/template-home.php:60
+#: templates/template-responsibility.php:48
+msgid "View All"
+msgstr "查看全部"

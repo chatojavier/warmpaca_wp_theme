@@ -1,0 +1,189 @@
+$color-salmon-dark: #e56a54;
+$color-salmon-light: #ff8d6d;
+$color-gold-light: #d9c89e;
+$color-gold-dark: #a69f88;
+$color-gold-trans: #eee7d5;
+
+$color-black: #000000;
+$color-gray-dark: #373737;
+$color-gray-light: #a5a5a5;
+$color-gray-trans: #efefef;
+$color-white: #fff;
+
+$color-cuper: #B56B40;
+$color-cream: #FFF8E3;
+$color-gray: #616166;
+
+$avenir: "Object Sans", "Helvetica", "arial", "sans-serif";
+$raleway: "Object Sans", "Roboto", "Helvetica", "Arial", sans-serif;
+
+$paragraphFont: "Object Sans", "Helvetica", "arial", "sans-serif";
+$highlightFont: "Object Sans", "Helvetica", "arial", "sans-serif";
+$lightFont: "Object Sans", "Helvetica", "arial", "sans-serif";
+
+@mixin transition-ease {
+	transition: all 0.25s ease-in-out;
+}
+@mixin vh-mobile($vh) {
+	height: calc(var(--vh, 1vh) * #{$vh});
+}
+@mixin paragraph20 {
+	font-family: $paragraphFont;
+	font-weight: 400;
+	font-size: 18px;
+	@include sm {
+		font-size: 20px;
+	}
+}
+
+@mixin paragraph15 {
+	font-family: $paragraphFont;
+	font-weight: 400;
+	font-size: 14px;
+	@include sm {
+		font-size: 15px;
+	}
+}
+
+@mixin paragraph13 {
+	font-family: $paragraphFont;
+	font-weight: 400;
+	font-size: 12px;
+	@include sm {
+		font-size: 13px;
+	}
+}
+
+@mixin paragraph12 {
+	font-family: $paragraphFont;
+	font-weight: 400;
+	font-size: 11px;
+	@include sm {
+		font-size: 12px;
+	}
+}
+
+@mixin highlight20 {
+	font-family: $highlightFont;
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+	@include sm {
+		font-size: 20px;
+	}
+}
+
+@mixin highlight28 {
+	font-family: $highlightFont;
+	font-weight: 400;
+	font-size: 24px;
+	text-transform: uppercase;
+	@include sm {
+		font-size: 28px;
+	}
+}
+
+@mixin highlight32 {
+	font-family: $highlightFont;
+	font-weight: 400;
+	font-size: 28px;
+	text-transform: uppercase;
+	@include sm {
+		font-size: 32px;
+	}
+}
+
+@mixin light13 {
+	font-family: $highlightFont;
+	font-weight: 300;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+@mixin light12 {
+	font-family: $highlightFont;
+	font-weight: 300;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+//utilities
+
+.square {
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		padding-bottom: 100%;
+		width: 100%;
+		z-index: -10;
+	}
+}
+
+//Landon Schropp’s breakpoint technique
+$sm-width: 640px;
+
+$md-width: 768px;
+
+$lg-width: 1024px;
+
+$xl-width: 1280px;
+
+$xxl-width: 1536px;
+
+@mixin sm {
+	@media (min-width: #{$sm-width}) {
+		@content;
+	}
+}
+
+@mixin md {
+	@media (min-width: #{$md-width}) {
+		@content;
+	}
+}
+
+@mixin lg {
+	@media (min-width: #{$lg-width}) {
+		@content;
+	}
+}
+
+@mixin xl {
+	@media (min-width: #{$xl-width}) {
+		@content;
+	}
+}
+
+@mixin xxl {
+	@media (min-width: #{$xxl-width}) {
+		@content;
+	}
+}
+
+@mixin retina {
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+		@content;
+	}
+}
+
+@mixin landscape {
+	@media screen and (orientation: landscape) {
+		@content;
+	}
+}
+
+@mixin portrait {
+	@media screen and (orientation: portrait) {
+		@content;
+	}
+}
+
+@mixin minPhone {
+	@media screen and (orientation: portrait) {
+		@media screen and (min-width: #{$sm-width}) {
+			@content;
+		}
+	}
+}

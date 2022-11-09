@@ -1,0 +1,42 @@
+.first-screen {
+	height: calc(100% - 3.75rem - 10vw);
+	display: flex;
+	align-items: center;
+
+	.warm-logo {
+		text-align: center;
+		font-family: "Avenir";
+		text-transform: uppercase;
+		&__title {
+			font-weight: 900;
+			font-size: 45px;
+		}
+		&__slogan {
+			font-size: 12px;
+		}
+	}
+
+	&__down-arrow {
+		font-size: 32px;
+		color: $color-gray-dark;
+		position: absolute;
+		bottom: 0;
+		right: 5%;
+		margin-bottom: 1rem;
+		//Animation bounce
+		@include bounce;
+	}
+}
+
+.home .first-screen__down-arrow {
+	color: $color-gray-dark;
+}
+
+.about .first-screen__down-arrow,
+.responsibility .first-screen__down-arrow {
+	color: white;
+}
+
+.category .first-screen__down-arrow {
+	color: $color-gray-light;
+}

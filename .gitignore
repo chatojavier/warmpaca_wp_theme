@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+plugins/
+
+# Ignored files
+.env*
+codegen.yml
+gapi_client_secret.json
+.DS_Store
+.npmrc
+
+# IDE
+.vscode/
+workspace.code-workspace
+
+# Build
+dist/

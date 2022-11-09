@@ -1,0 +1,37 @@
+.header {
+	position: relative;
+	height: calc(3.75rem + 10vw);
+
+	.fixed-bar {
+		position: fixed;
+		width: 100%;
+		padding: 5vw;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: white;
+		z-index: 20;
+		@include transition-ease;
+
+		.warm-logo {
+			// transform: scale(0.7);
+			transform-origin: left;
+			@include transition-ease;
+			text-align: center;
+			font-family: "Avenir";
+			text-transform: uppercase;
+			&__title {
+				font-weight: 900;
+				font-size: 38px;
+				line-height: 1;
+			}
+			&__slogan {
+				font-size: 10px;
+			}
+		}
+	}
+}
+
+.header-sidebar {
+	display: none;
+}
