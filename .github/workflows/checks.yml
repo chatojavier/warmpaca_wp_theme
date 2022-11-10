@@ -1,0 +1,25 @@
+name: Checks
+
+on: [push, pull_request]
+
+jobs:
+  static-compat:
+    name: Static Compatability
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # install dependencies from package-lock.json
+      - name: Install dependencies with npm
+        run: npm ci
+
+      - run: npm run build
+        

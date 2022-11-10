@@ -15,7 +15,7 @@
 			top: 0.5rem;
 			width: 28px;
 			height: 2px;
-			background: $color-gray-dark;
+			background: $color-cuper;
 			@include transition-ease;
 
 			&::before {
@@ -24,7 +24,7 @@
 				top: -8px;
 				width: 28px;
 				height: 2px;
-				background: $color-gray-dark;
+				background: $color-cuper;
 				@include transition-ease;
 			}
 
@@ -34,7 +34,7 @@
 				top: 8px;
 				width: 28px;
 				height: 2px;
-				background: $color-gray-dark;
+				background: $color-cuper;
 				@include transition-ease;
 			}
 
