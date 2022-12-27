@@ -76,6 +76,8 @@
         <?php endif; ?>
     </div> <!-- .site-branding -->
 
+    <?php get_template_part('template-parts/content', 'popup'); ?>
+
     <header class="header">
         <div class="fixed-bar">
             <div class="fixed-bar__container">
